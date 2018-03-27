@@ -9,21 +9,9 @@ import './App.css';
 class App extends React.Component {
   constructor(props){
     super(props);
-    this.state = {searchResults: [ {
-      name: 'name',
-      artist: 'artist',
-      album: 'album',
-      id: 1} ],
-      playlistName: '',
-      playlistTracks: [ 
-      {name: 'name2',
-      artist: 'artist2',
-      album: 'album2',
-      id: 2},
-      {name: 'name3',
-      artist: 'artist3',
-      album: 'album3',
-      id: 3}]
+    this.state = {searchResults: [],
+      playlistName: 'New Playlist',
+      playlistTracks: []
 
     };
     this.addTrack = this.addTrack.bind(this);
@@ -43,32 +31,47 @@ class App extends React.Component {
       }));
 
     }
-    console.log(track.id); // remove after tests
   }
 
-  removeTrack(track){ // nneed handle if the track that is remove not exist in the array
+  removeTrack(track){ 
     this.setState( prevState =>({ playlistTracks: this.state.playlistTracks.filter( trackT => 
       trackT.id !== track.id 
     
      )}));   
   }
 
-  updatePlaylistName(name){ // need handle if the playlist name come empty
+  updatePlaylistName(name){ 
     this.setState( {playlistName: name} );
-    //console.log(this.state.playlistName); // delete after testing
   }
 
-  savePlaylist(){ // need testing
+  savePlaylist(){
     let trackURIs = [];
     this.state.playlistTracks.map( track => trackURIs.push(track.uri) );
-    console.log(trackURIs); // delete after testing
+    Spotify.savePlaylist(this.state.playlistName, trackURIs)
+    .then(a =>{
+        alert(`Playlist ${this.state.playlistName} saved` );
+        this.setState({
+          playlistName: 'New playlist',
+          searchResults:[],
+          playlistTracks:[]
+        });    
+      } 
+      );
+    
   }
 
   search(searchTerm){
+    if (!searchTerm) {
+      return
+    }
     Spotify.getAccessToken();
-    console.log(Spotify.search(searchTerm));
-/*  Spotify.search(search).map(track => );*/
-/*    this.setState({playlistTracks: Spotify.getAccessToken()})*/
+    Spotify.search(searchTerm)
+    .then(a => {
+      this.setState({
+        searchResults: a
+      });
+    });
+
   }
 
   render() {
