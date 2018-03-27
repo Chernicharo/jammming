@@ -64,8 +64,11 @@ class App extends React.Component {
     console.log(trackURIs); // delete after testing
   }
 
-  search(search){
-    Spotify.search(search);
+  search(searchTerm){
+    Spotify.getAccessToken();
+    console.log(Spotify.search(searchTerm));
+/*  Spotify.search(search).map(track => );*/
+/*    this.setState({playlistTracks: Spotify.getAccessToken()})*/
   }
 
   render() {
