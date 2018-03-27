@@ -1,0 +1,589 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sear",
+				"SearchBar"
+			],
+			[
+				"bus",
+				"business"
+			],
+			[
+				"bu",
+				"business"
+			],
+			[
+				"json",
+				"jsonResponse"
+			],
+			[
+				"so",
+				"sortBy"
+			],
+			[
+				"han",
+				"handleTermChange"
+			],
+			[
+				"hand",
+				"handleLocationChange"
+			],
+			[
+				"sort",
+				"sortByOptionValue"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"sortBy",
+				"sortByOption"
+			],
+			[
+				"buss",
+				"businesses"
+			],
+			[
+				"S",
+				"SearchBar"
+			],
+			[
+				"render",
+				"renderSortByOptions"
+			],
+			[
+				"Busin",
+				"BusinessList"
+			],
+			[
+				"image",
+				"imageSrc"
+			],
+			[
+				"flip",
+				"flipTile"
+			],
+			[
+				"num",
+				"numberOfBombs"
+			],
+			[
+				"number",
+				"numberOfRows"
+			],
+			[
+				"_",
+				"_numberOfBombs"
+			],
+			[
+				"numb",
+				"numberOfRows"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"c",
+				"columnIndex"
+			],
+			[
+				"colu",
+				"columnIndex"
+			],
+			[
+				"row",
+				"rowIndex"
+			],
+			[
+				"player",
+				"playerBoard"
+			],
+			[
+				"numberOf",
+				"numberOfBombs"
+			],
+			[
+				"bomb",
+				"bombBoard"
+			],
+			[
+				"pla",
+				"playerBoard"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"gene",
+				"generateBombBoard"
+			],
+			[
+				"r",
+				"randomColumnsIndex"
+			],
+			[
+				"ran",
+				"randomRowIndex"
+			],
+			[
+				"col",
+				"col-md-12"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"col-md",
+				"col-md-4"
+			],
+			[
+				"paddo",
+				"padding-bottom"
+			],
+			[
+				"col-",
+				"col-md-6"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"col-md-",
+				"col-md-6"
+			],
+			[
+				"un",
+				"underline"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"lc",
+				"lc"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "jammming\n\n- components \n\t- search bar \n\t state componet . will search for the keyword\n\t- music\n\t represent only one music, with song name, artist  and album\n\t- music list\n\tmake a list with musics\n\t- playlist\n\tlist all the songs that added to playlist\n\t- save to spotify\n\ttake all the data of playlist and ssave it to spotify\n\n\n\nfase 1 time ++++\npseudo search with false object\n\ncreate music and music list\n\n\nfase 2 time +++\n\nmake the search work with spoty api\n\n\nfase 3 time ++ \n\nsave it to spoty\n\n\nfase extra, time +? \n\nmake album photo display\n\nplaylist time\n\nmake dynamic playlist with the amount time givem\n\n",
+			"settings":
+			{
+				"buffer_size": 612,
+				"line_ending": "Windows",
+				"name": "jammming"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 323.0,
+		"last_filter": "javasc",
+		"selected_items":
+		[
+			[
+				"javasc",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"babe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Install Package Control"
+			]
+		],
+		"width": 398.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/projects/jammming",
+		"/D/projects/jammming/public",
+		"/D/projects/jammming/src",
+		"/D/projects/jammming/src/components"
+	],
+	"file_history":
+	[
+		"/D/projects/ravenous/src/index.js",
+		"/C/Users/Roberto/Desktop/Yelp.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zE47D4E63B/Yelp.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zO0B7A8812/SearchBar.js",
+		"/C/Users/Roberto/Downloads/Telegram Desktop/config.json",
+		"/D/projects/ravenous/src/App.test.js",
+		"/D/projects/ravenous/src/components/Business/business.js",
+		"/D/projects/ravenous/src/components/BusinessList/BusinessList.js",
+		"/D/projects/ravenous/src/components/SearchBar/SearchBar.js",
+		"/D/projects/ravenous/src/App.js",
+		"/D/projects/reactTest/reacttest/src/App.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zO8A8C59D0/Business.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zO8A8EB691/Business.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zO8A86E71E/Business.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zO8A85E8C5/App.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zO8A8D84D8/SearchBar.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zO8A818256/Business.js",
+		"/D/projects/ravenous/src/App.css",
+		"/D/projects/ravenous/src/components/Business/business.css",
+		"/D/projects/ravenous/src/components/SearchBar/SearchBar.css",
+		"/D/projects/ravenous/src/components/BusinessList/BusinessList.css",
+		"/C/xampp/htdocs/teste/.env",
+		"/D/projects/ravenous/public/reset.css",
+		"/C/Users/Roberto/AppData/Local/Temp/7zE06BB49CD/minesweeper.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zE06BF2B6D/minesweeper.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zE06BB175D/minesweeper.js",
+		"/C/Users/Roberto/testeRomulo.js",
+		"/C/Users/Roberto/Desktop/minesweeper.js",
+		"/C/Users/Roberto/AppData/Local/Temp/7zE884F5B5D/minesweeper.js",
+		"/C/Users/Roberto/Documents/unicast/mod_popup/tmpl/default.php",
+		"/C/Users/Roberto/Documents/unicast/mod_popup/mod_popup.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp19672/var/www/tempsite/mailing/projetos/labh2/callForAbstract/call.html",
+		"/C/Users/Roberto/AppData/Local/Temp/scp25271/var/www/tempsite/INCTEM/configuration.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp17366/var/www/tempsite/mailing/projetos/labh2/cartachineses/index.html",
+		"/C/Users/Roberto/AppData/Local/Temp/scp14487/var/www/tempsite/mailing/projetos/ltc/workshopcenarios/img.png",
+		"/C/Users/Roberto/AppData/Local/Temp/scp38248/public_html/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp37948/public_html/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp36550/public_html/templates/UnciastTemplate/css/mediaQuery.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp18375/public_html/templates/UnciastTemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp20622/public_html/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp18572/public_html/templates/UnciastTemplate/index.html",
+		"/C/Users/Roberto/AppData/Local/Temp/scp36734/public_html/templates/UnciastTemplate/css/template.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp39744/public_html/templates/UnciastTemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp54000/public_html/templates/UnciastTemplate/css/mediaQuery.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp35064/public_html/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp38184/public_html/templates/UnciastTemplate/index.html",
+		"/C/Users/Roberto/AppData/Local/Temp/scp18589/public_html/templates/UnciastTemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp13016/public_html/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp36484/public_html/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp22337/public_html/templates/UnciastTemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp55342/var/www/tempsite/escolapiloto/templates/UnicastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp31285/var/www/tempsite/centroclima/templates/UnciastTemplate/css/custom.css",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Roberto/AppData/Local/Temp/scp33276/public_html/libraries/joomla/session/handler/native.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp14852/php.ini",
+		"/C/Users/Roberto/AppData/Local/Temp/scp57433/public_html/installation/index2.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp57105/public_html/installation/index1.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp47649/public_html/installation/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp46848/public_html/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp20783/public_html/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp04536/public_html/templates/UnciastTemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp57110/public_html/templates/UnciastTemplate/css/template.css",
+		"/C/Users/Roberto/Documents/logo.png",
+		"/C/Users/Roberto/AppData/Local/Temp/scp14777/public_html/templates/UnciastTemplate/logo.png",
+		"/C/Users/Roberto/AppData/Local/Temp/scp39076/var/www/tempsite/mailing/projetos/po/romulo/index.html",
+		"/C/Users/Roberto/AppData/Local/Temp/scp44160/var/www/tempsite/anais/RIC.csv",
+		"/C/Users/Roberto/AppData/Local/Temp/scp14380/var/www/tempsite/senamentopdf/data.csv",
+		"/C/Users/Roberto/Documents/A3 Microdrenagem Pluvial_1oDistrito_revistoOMR.pdf",
+		"/C/Users/Roberto/AppData/Local/Temp/scp18582/var/www/tempsite/senamentopdf/documentos/drenagem/A3 Microdrenagem Pluvial_1oDistrito_revistoOMR.pdf",
+		"/C/Users/Roberto/AppData/Local/Temp/scp33252/var/www/coloquio_peq/templates/UnciastTemplate/js/main.js",
+		"/C/Users/Roberto/AppData/Local/Temp/scp14738/var/www/tempsite/mailing/criador.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp14246/var/www/tempsite/mailing/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp30655/var/www/tempsite/xxxianpet/news/atencao/index.html",
+		"/C/Users/Roberto/AppData/Local/Temp/scp47035/var/www/tempsite/mailing/projetos/teste/teste1/index.html",
+		"/C/Users/Roberto/AppData/Local/Temp/scp57538/var/www/microbiologia.ufrj.br/XXIIIsemana/templates/unicasttemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp10766/var/www/microbiologia.ufrj.br/XXIIIsemana/templates/unicasttemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp32898/var/www/tempsite/xxiiisemana/templates/unicasttemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp26347/var/www/tempsite/imuno/templates/UnciastTemplate/js/main.js",
+		"/C/Users/Roberto/AppData/Local/Temp/scp29626/var/www/tempsite/imuno/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp47260/var/www/tempsite/imuno/templates/UnciastTemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp10848/dados/www/piloto/presencial/formulario.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp25432/var/www/tempsite/dei/templates/rt_anacron/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp34235/var/www/tempsite/petInscricao/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp23834/var/www/tempsite/dei/templates/rt_anacron/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp19356/var/www/provaextramuros.org.br/templates/extramuros/css/main.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp17877/var/www/tempsite/imuno/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp13907/var/www/tempsite/imuno/modules/mod_news_pro_gk5/interface/css/style.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp08290/var/www/tempsite/imuno/templates/UnciastTemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp38272/var/www/tempsite/imuno/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp17233/var/www/coloquio_peq/templates/UnciastTemplate/css/custom.css",
+		"/C/Users/Roberto/AppData/Local/Temp/scp36622/var/www/coloquio_peq/templates/UnciastTemplate/index.php",
+		"/C/Users/Roberto/Downloads/relatorio 2017",
+		"/C/Users/Roberto/AppData/Local/Temp/scp09197/var/www/tempsite/ardentia/templates/UnciastTemplate/index.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp09138/var/www/tempsite/ardentia/templates/UnciastTemplate/logo.png",
+		"/C/Users/Roberto/AppData/Local/Temp/scp57197/var/www/tempsite/IH/modules/mod_social/mod_social.php",
+		"/C/Users/Roberto/AppData/Local/Temp/scp57828/var/www/tempsite/IH/modules/mod_social/css/esquerda.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"class",
+			"neighborcolumnIndex",
+			"math",
+			"combinação",
+			"combinação ",
+			"Triplo",
+			"\n",
+			");\n",
+			"7",
+			"novafaixa",
+			"noticias"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								405,
+								405
+							]
+						],
+						"settings":
+						{
+							"auto_name": "jammming",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 27.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "jammming.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
